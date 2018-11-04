@@ -1,0 +1,2 @@
+1.bcryptjs for password related encryption and hasing --save 
+2. lodash : Utilities like sorting arrays, settimeout etc.

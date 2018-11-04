@@ -1,1 +1,16 @@
-NPM Related 
+npmjs.com is the repository for all npm packages.
+1. npm --version : Gives the version of the npm installation
+
+package.json holds all the dependencies and their version 
+2. npm init : creates the package.json file. It will ask you all the questions.
+3. npm init --yes : skips all the questions and keeps the defaul answer.
+
+Changing the Default value of package.json
+4. npm config set init-author-name "Soumyajeet Nayak"
+5. npm config set init-licence "MIT"
+
+6. npm get init-author-name : gives you the defaul name set in you npm condfiguraiton
+7. npm config delete init-author-name : resets it to previous data.
+8 npm install <package-name> --save : --save means it save it in node_moduels and add a reference in package.json
+
+
